@@ -1,0 +1,15 @@
+[Unit]
+Description=Discord bot
+After=network.target
+
+[Service]
+Environment="LOG_LEVEL=INFO"
+ExecStart=/Users/costimihai/.pyenv/shims/pipenv run python3 bot.py
+WorkingDirectory=/opt/TornDiscordBot/
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=costimihai
+
+[Install]
+WantedBy=multi-user.target

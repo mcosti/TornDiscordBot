@@ -1,0 +1,6 @@
+.env
+.env_prod
+db_cert.json
+.idea/
+__pycache__/
+.vscode/

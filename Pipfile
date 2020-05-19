@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pylint = "*"
+
+[packages]
+python-dotenv = "*"
+firebase-admin = "*"
+tornado = "*"
+tabulate = "*"
+sentry-sdk = "*"
+aiocontextvars = "*"
+aiohttp = "*"
+discord = "*"
+websockets = "*"
+requests = "*"
+
+[requires]
+python_version = "3.6"
